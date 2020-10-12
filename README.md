@@ -30,7 +30,7 @@ You can then execute `npm start` in your terminal while inside the project direc
 
 1. Upload your project to github (public repo, without the node_modules directory)
 
-2. Host the project on the internet (Netlify, Heroku, Vercel etc.)
+2. Host the project on the internet (Github pages, Netlify, Heroku, Vercel etc.)
 
 3. Send the links (repo + hosted instance) directly to talentaccelerator@redmind.se 
 
