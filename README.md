@@ -28,7 +28,11 @@ You can then execute `npm start` in your terminal while inside the project direc
 
 ## Delivery
 
-You can either upload your project to github and send a link or zip the project files (without the node_modules directory) and send them directly to talentaccelerator@redmind.se
+1. Upload your project to github (public repo, without the node_modules directory)
+
+2. Host the project on the internet (Netlify, Heroku, Vercel etc.)
+
+3. Send the links (repo + hosted instance) directly to talentaccelerator@redmind.se 
 
 Also please answer the following questions in the email:
 
