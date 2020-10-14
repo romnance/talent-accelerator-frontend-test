@@ -39,3 +39,5 @@ Also please answer the following questions in the email:
 1. What parts did you struggle with and why?
 
 2. Would you do anything differently if you were to do it again?
+
+3. Which framework did you choose and why? If you did not choose to use a framework, why?
