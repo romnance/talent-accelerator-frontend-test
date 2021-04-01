@@ -1,43 +1,70 @@
-# Talent Accelerator front-end assignment
+# Getting Started with Create React App
 
-## Task description
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-You will be creating a basic web page using HTML/CSS/Javascript that displays
-Star Wars characters and provides information about them.
+## Available Scripts
 
-You can use any libraries/frameworks you want to, it's totally up to you.
+In the project directory, you can run:
 
-As far as styling goes spend some time making it look however you want it to but focus on making the information easy to parse and the application easy to use.
+### `npm start`
 
-There are three features we want you to implement, I suggest developing them one at a time in the following order:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-1. List all the Star Wars characters by first and last name. Use swapi (Star Wars API) for this.
-   The following **GET** request will retrieve a list of characters and their related information `https://swapi.dev.api/people`. It uses pagination meaning you will have to either keep requesting based on the next url that is sent as part of the response or you can implement pagination in the application as well.
-   You can read all of the documentation for the API [here](https://swapi.dev/).
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-2. Display additional information about the characters when their names are clicked. The user should also be able to hide this information again. You can pick a couple of properties to show based on what you get from the API.
+### `npm test`
 
-3. Implement a search feature allowing the user to filter the characters based on their first name or last name.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Setup
+### `npm run build`
 
-You can create your own project from scratch or you can clone this one that has a basic project setup.
-If you choose to clone this one you will need to install [Node.js](https://nodejs.org/en/z`).
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-You can then execute `npm start` in your terminal while inside the project directory to launch the application in the web with auto refresh when you save file changes.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Delivery
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-1. Upload your project to github (public repo, without the node_modules directory)
+### `npm run eject`
 
-2. Host the project on the internet (Github pages, Netlify, Heroku, Vercel etc.)
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-3. Send the links (repo + hosted instance) directly to talentaccelerator@redmind.se 
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Also please answer the following questions in the email:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-1. What parts did you struggle with and why?
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-2. Would you do anything differently if you were to do it again?
+## Learn More
 
-3. Which framework did you choose and why? If you did not choose to use a framework, why?
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
