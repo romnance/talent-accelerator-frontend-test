@@ -29,9 +29,9 @@ export default function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} alt="logo" className="StarWarsLogo" />
-        <h1 className="header">Characters</h1>
       </header>
-      <Search inputList={list} />
+        <h1>Characters</h1>
+        <Search inputList={list} />
     </div>
   </>
   );
